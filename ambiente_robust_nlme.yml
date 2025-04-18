@@ -1,0 +1,17 @@
+name: robust-nlme
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy>=1.22
+  - scipy>=1.8
+  - pandas>=1.4
+  - statsmodels>=0.13
+  - matplotlib>=3.5
+  - seaborn>=0.11
+  - jupyter>=1.0
+  - ipywidgets>=7.0
+  - pymc>=4.0     # Para comparações com abordagens bayesianas (opcional)
+  - arviz>=0.12   # Para diagnósticos (opcional)
+  - tqdm>=4.0     # Para barras de progresso
