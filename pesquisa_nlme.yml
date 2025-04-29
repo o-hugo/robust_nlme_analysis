@@ -1,0 +1,66 @@
+name: pesquisa-nlme
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - jupyterlab
+  - notebook
+  - ipywidgets
+  - r-base=4.3
+  - r-irkernel
+  - r-tidyverse
+  - r-nlme
+  - r-lme4
+  - r-ggplot2
+  - r-dplyr
+  - r-readr
+  - r-tidyr
+  - r-nlmixr2
+  #- r-xpose intalar com github
+  #- r-xpose.nlmixr2 instalar com github
+  - r-lattice
+  - r-remotes
+  - r-devtools
+  - r-cowplot
+  - r-ggpubr
+  - r-patchwork
+  - r-parameters
+  - r-shiny
+  - r-rmarkdown
+  - r-knitr
+  - r-data.table
+  - r-glue
+  - r-magrittr
+  - r-stringr
+  - r-mass
+  - r-boot
+  - r-purrr
+  - r-forcats
+  - r-tibble
+  - r-plotly
+  - r-htmltools
+  - r-rlang
+  - r-lubridate
+  - r-patchwork
+  - r-scales
+  - r-assertthat
+  - r-vctrs
+
+  # Para cobertura extra de compatibilidade e manipulação de dados
+  - r-matrix
+  - r-car
+  - r-broom
+
+  # Instale o pacote nlmixr2 via remotes para garantir versão recente* (veja instruções abaixo)
+
+  # Python packages para integração e visualização (opcional)
+  - matplotlib
+  - numpy
+  - pandas
+
+  # pacotes adicionais no github
+  #install.packages("remotes") # Caso ainda não tenha
+  #remotes::install_github("nlmixrdevelopment/xpose.nlmixr2")
+  #remotes::install_github("nlmixrdevelopment/xpose")
